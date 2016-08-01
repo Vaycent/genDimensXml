@@ -27,7 +27,7 @@ public class autoGenDimenXml {
 	private static final String resourcePath="/app/src/main/res";
 	private static final String dimensPath="/values/dimens.xml";
 	
-	private static final String[] dimensSet={"sw360dp-land","sw411dp-land","sw480dp-land","sw576dp-land"};
+	private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp","sw600dp","sw800dp"};
 	
 	private static final int baseOnDp=360;
 	
