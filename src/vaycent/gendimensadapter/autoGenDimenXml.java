@@ -10,12 +10,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /*
- * 一行一个<dimen></dimen>标签
- * 要使用dp,sp,px(你们这么聪明不会用px的)等2个字符的单位
- * 默认使用360dp来设计
+ * Please be noted:
+ * 1. Just one <dimen></dimen> tag one line in your dimen.xml
+ * 2. U can use two character as the unit(like: dp,sp)
+ * 3. Now base on 360dp as default
+ * 4. Put your values/dimens.xml in the project that you want to gen
  * 
- * 
- * 放在需要gen的project下面
  */
 
 
@@ -27,11 +27,12 @@ public class autoGenDimenXml {
 	private static final String resourcePath="/app/src/main/res";
 	private static final String dimensPath="/values/dimens.xml";
 	
+	//This dimensSet is used to control the size that u want to gen
 	private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp","sw600dp","sw800dp"};
 	
 	private static final int baseOnDp=360;
 	
-	// ********************************* 只需修改以上内容 ********************************
+	// ***************************** U can just modify above content ********************************
 	
 	public static void main(String[] args) {
 		String baseOnPath=basePath+projectName+resourcePath+dimensPath;
