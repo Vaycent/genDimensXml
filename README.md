@@ -2,7 +2,7 @@
 
 You can use this java file to help u to generate dimens.xml automatically in your android project. Base on your values/dimens.xml in your android project, it will rise proportionately to the other size floder----"values-XX" and generate the dimens.xml
 
-### Add genDimensXml to your project
+### How to use
 ------------------------
 * Setup the  values/dimens.xml path in your android project
 * You can use "baseOnDp" to declare the screen width which has been set for your dimes.xml 
