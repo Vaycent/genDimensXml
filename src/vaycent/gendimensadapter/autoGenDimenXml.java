@@ -27,10 +27,10 @@ public class autoGenDimenXml {
 	private static final String resourcePath="/app/src/main/res";
 	private static final String dimensPath="/values/dimens.xml";
 	
-	//This dimensSet is used to control the size that u want to gen
-	private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp","sw600dp","sw800dp"};
-	
 	private static final int baseOnDp=360;
+	
+	//This dimensSet is used to control the size that u want to gen
+		private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp","sw600dp","sw800dp"};
 	
 	// ***************************** U can just modify above content ********************************
 	
