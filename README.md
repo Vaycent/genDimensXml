@@ -30,4 +30,5 @@ private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp"
 ```
 
 ### LICENSE
+-------------------
 The source code is licensed under GPL v3. License is available [here](./LICENSE.txt)
