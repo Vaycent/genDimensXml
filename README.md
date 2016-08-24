@@ -1,5 +1,4 @@
 # genDimensXml
-------------------
 
 You can use this java file to help u to generate dimens.xml automatically in your android project. Base on your values/dimens.xml in your android project, it will rise proportionately to the other size floder----"values-XX" and generate the dimens.xml
 
