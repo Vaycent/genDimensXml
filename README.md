@@ -2,15 +2,13 @@
 
 You can use this java file to help u to generate dimens.xml automatically in your android project. Base on your values/dimens.xml in your android project, it will rise proportionately to the other size floder----"values-XX" and generate the dimens.xml
 
-### How to use
-------------------------
+## How to use
 * Setup the  values/dimens.xml path in your android project
 * You can use "baseOnDp" to declare the screen width which has been set for your dimes.xml 
 * "dimensSet" is used to declare the folders in other size which u want to gen
 * Run this genDimensXml.java and u will generate the dimen with other size in this android project
 
-### Example
-----------------
+## Example
 You can use these values to setup the path of your android project
 
 ```
@@ -28,6 +26,6 @@ private static final String[] dimensSet={"sw360dp","sw411dp","sw480dp","sw576dp"
 	
 ```
 
-### LICENSE
+## LICENSE
 -------------------
 The source code is licensed under GPL v3. License is available [here](./LICENSE.txt)
